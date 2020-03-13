@@ -23,4 +23,10 @@ public class CalculatorTest {
         assertThat(result, is(9L));
     }
    
+     @Test
+    public void fourdivfourIsone() throws Exception {
+        final long result = new Calculator().divFucn(4, 4);
+        assertThat(result, is(1L));
+    }
+   
 }
