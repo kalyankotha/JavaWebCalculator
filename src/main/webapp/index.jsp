@@ -20,6 +20,10 @@
 </label>
 <input type="radio" name="r2" value="sub" />subtraction 
 <br />
+<input type="radio" name="r3" value="mul" />multiplication
+<br />
+<input type="radio" name="r4" value="div" />division
+<br />
  
 </div>
 <input type="submit" value="submit" />
